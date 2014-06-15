@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB807FCA1935924A0083AF61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB807FC91935924A0083AF61 /* Foundation.framework */; };
+		AB807FCC1935924A0083AF61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB807FCB1935924A0083AF61 /* CoreGraphics.framework */; };
+		AB807FCE1935924A0083AF61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB807FCD1935924A0083AF61 /* UIKit.framework */; };
+		AB807FD41935924A0083AF61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB807FD21935924A0083AF61 /* InfoPlist.strings */; };
+		AB807FD61935924A0083AF61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB807FD51935924A0083AF61 /* main.m */; };
+		AB807FDA1935924A0083AF61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB807FD91935924A0083AF61 /* AppDelegate.m */; };
+		AB807FDD1935924A0083AF61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB807FDB1935924A0083AF61 /* Main.storyboard */; };
+		AB807FE01935924A0083AF61 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB807FDF1935924A0083AF61 /* MainViewController.m */; };
+		AB807FE31935924A0083AF61 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB807FE21935924A0083AF61 /* FlipsideViewController.m */; };
+		AB807FE51935924A0083AF61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB807FE41935924A0083AF61 /* Images.xcassets */; };
+		AB807FEC1935924A0083AF61 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB807FEB1935924A0083AF61 /* XCTest.framework */; };
+		AB807FED1935924A0083AF61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB807FC91935924A0083AF61 /* Foundation.framework */; };
+		AB807FEE1935924A0083AF61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB807FCD1935924A0083AF61 /* UIKit.framework */; };
+		AB807FF61935924A0083AF61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB807FF41935924A0083AF61 /* InfoPlist.strings */; };
+		AB807FF81935924A0083AF61 /* iJuliusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB807FF71935924A0083AF61 /* iJuliusTests.m */; };
+		AB98EB66193593C900BB6041 /* Caesar_CipherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB98EB65193593C900BB6041 /* Caesar_CipherModel.m */; };
+		ABCC605F193651890019805F /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCC605E193651890019805F /* iAd.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB807FEF1935924A0083AF61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB807FBE1935924A0083AF61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB807FC51935924A0083AF61;
+			remoteInfo = iJulius;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB807FC61935924A0083AF61 /* iJulius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iJulius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB807FC91935924A0083AF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB807FCB1935924A0083AF61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB807FCD1935924A0083AF61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB807FD11935924A0083AF61 /* iJulius-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iJulius-Info.plist"; sourceTree = "<group>"; };
+		AB807FD31935924A0083AF61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB807FD51935924A0083AF61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB807FD71935924A0083AF61 /* iJulius-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iJulius-Prefix.pch"; sourceTree = "<group>"; };
+		AB807FD81935924A0083AF61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB807FD91935924A0083AF61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB807FDC1935924A0083AF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB807FDE1935924A0083AF61 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AB807FDF1935924A0083AF61 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AB807FE11935924A0083AF61 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		AB807FE21935924A0083AF61 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		AB807FE41935924A0083AF61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB807FEA1935924A0083AF61 /* iJuliusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iJuliusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB807FEB1935924A0083AF61 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AB807FF31935924A0083AF61 /* iJuliusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iJuliusTests-Info.plist"; sourceTree = "<group>"; };
+		AB807FF51935924A0083AF61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB807FF71935924A0083AF61 /* iJuliusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iJuliusTests.m; sourceTree = "<group>"; };
+		AB98EB64193593C000BB6041 /* Caesar_CipherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caesar_CipherModel.h; sourceTree = "<group>"; };
+		AB98EB65193593C900BB6041 /* Caesar_CipherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Caesar_CipherModel.m; sourceTree = "<group>"; };
+		ABCC605E193651890019805F /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB807FC31935924A0083AF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCC605F193651890019805F /* iAd.framework in Frameworks */,
+				AB807FCC1935924A0083AF61 /* CoreGraphics.framework in Frameworks */,
+				AB807FCE1935924A0083AF61 /* UIKit.framework in Frameworks */,
+				AB807FCA1935924A0083AF61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB807FE71935924A0083AF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB807FEC1935924A0083AF61 /* XCTest.framework in Frameworks */,
+				AB807FEE1935924A0083AF61 /* UIKit.framework in Frameworks */,
+				AB807FED1935924A0083AF61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB807FBD1935924A0083AF61 = {
+			isa = PBXGroup;
+			children = (
+				AB807FCF1935924A0083AF61 /* iJulius */,
+				AB807FF11935924A0083AF61 /* iJuliusTests */,
+				AB807FC81935924A0083AF61 /* Frameworks */,
+				AB807FC71935924A0083AF61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB807FC71935924A0083AF61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB807FC61935924A0083AF61 /* iJulius.app */,
+				AB807FEA1935924A0083AF61 /* iJuliusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB807FC81935924A0083AF61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABCC605E193651890019805F /* iAd.framework */,
+				AB807FC91935924A0083AF61 /* Foundation.framework */,
+				AB807FCB1935924A0083AF61 /* CoreGraphics.framework */,
+				AB807FCD1935924A0083AF61 /* UIKit.framework */,
+				AB807FEB1935924A0083AF61 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB807FCF1935924A0083AF61 /* iJulius */ = {
+			isa = PBXGroup;
+			children = (
+				AB807FD81935924A0083AF61 /* AppDelegate.h */,
+				AB807FD91935924A0083AF61 /* AppDelegate.m */,
+				AB807FDB1935924A0083AF61 /* Main.storyboard */,
+				AB807FDE1935924A0083AF61 /* MainViewController.h */,
+				AB807FDF1935924A0083AF61 /* MainViewController.m */,
+				AB807FE11935924A0083AF61 /* FlipsideViewController.h */,
+				AB807FE21935924A0083AF61 /* FlipsideViewController.m */,
+				AB98EB64193593C000BB6041 /* Caesar_CipherModel.h */,
+				AB98EB65193593C900BB6041 /* Caesar_CipherModel.m */,
+				AB807FE41935924A0083AF61 /* Images.xcassets */,
+				AB807FD01935924A0083AF61 /* Supporting Files */,
+			);
+			path = iJulius;
+			sourceTree = "<group>";
+		};
+		AB807FD01935924A0083AF61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB807FD11935924A0083AF61 /* iJulius-Info.plist */,
+				AB807FD21935924A0083AF61 /* InfoPlist.strings */,
+				AB807FD51935924A0083AF61 /* main.m */,
+				AB807FD71935924A0083AF61 /* iJulius-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB807FF11935924A0083AF61 /* iJuliusTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB807FF71935924A0083AF61 /* iJuliusTests.m */,
+				AB807FF21935924A0083AF61 /* Supporting Files */,
+			);
+			path = iJuliusTests;
+			sourceTree = "<group>";
+		};
+		AB807FF21935924A0083AF61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB807FF31935924A0083AF61 /* iJuliusTests-Info.plist */,
+				AB807FF41935924A0083AF61 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB807FC51935924A0083AF61 /* iJulius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB807FFB1935924A0083AF61 /* Build configuration list for PBXNativeTarget "iJulius" */;
+			buildPhases = (
+				AB807FC21935924A0083AF61 /* Sources */,
+				AB807FC31935924A0083AF61 /* Frameworks */,
+				AB807FC41935924A0083AF61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iJulius;
+			productName = iJulius;
+			productReference = AB807FC61935924A0083AF61 /* iJulius.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB807FE91935924A0083AF61 /* iJuliusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB807FFE1935924A0083AF61 /* Build configuration list for PBXNativeTarget "iJuliusTests" */;
+			buildPhases = (
+				AB807FE61935924A0083AF61 /* Sources */,
+				AB807FE71935924A0083AF61 /* Frameworks */,
+				AB807FE81935924A0083AF61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB807FF01935924A0083AF61 /* PBXTargetDependency */,
+			);
+			name = iJuliusTests;
+			productName = iJuliusTests;
+			productReference = AB807FEA1935924A0083AF61 /* iJuliusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB807FBE1935924A0083AF61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Calla;
+				TargetAttributes = {
+					AB807FC51935924A0083AF61 = {
+						DevelopmentTeam = 8CGMU353W8;
+					};
+					AB807FE91935924A0083AF61 = {
+						TestTargetID = AB807FC51935924A0083AF61;
+					};
+				};
+			};
+			buildConfigurationList = AB807FC11935924A0083AF61 /* Build configuration list for PBXProject "iJulius" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB807FBD1935924A0083AF61;
+			productRefGroup = AB807FC71935924A0083AF61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB807FC51935924A0083AF61 /* iJulius */,
+				AB807FE91935924A0083AF61 /* iJuliusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB807FC41935924A0083AF61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB807FE51935924A0083AF61 /* Images.xcassets in Resources */,
+				AB807FD41935924A0083AF61 /* InfoPlist.strings in Resources */,
+				AB807FDD1935924A0083AF61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB807FE81935924A0083AF61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB807FF61935924A0083AF61 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB807FC21935924A0083AF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB807FDA1935924A0083AF61 /* AppDelegate.m in Sources */,
+				AB807FE01935924A0083AF61 /* MainViewController.m in Sources */,
+				AB807FE31935924A0083AF61 /* FlipsideViewController.m in Sources */,
+				AB98EB66193593C900BB6041 /* Caesar_CipherModel.m in Sources */,
+				AB807FD61935924A0083AF61 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB807FE61935924A0083AF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB807FF81935924A0083AF61 /* iJuliusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB807FF01935924A0083AF61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB807FC51935924A0083AF61 /* iJulius */;
+			targetProxy = AB807FEF1935924A0083AF61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB807FD21935924A0083AF61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB807FD31935924A0083AF61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB807FDB1935924A0083AF61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB807FDC1935924A0083AF61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB807FF41935924A0083AF61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB807FF51935924A0083AF61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB807FF91935924A0083AF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB807FFA1935924A0083AF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB807FFC1935924A0083AF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iJulius/iJulius-Prefix.pch";
+				INFOPLIST_FILE = "iJulius/iJulius-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB807FFD1935924A0083AF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iJulius/iJulius-Prefix.pch";
+				INFOPLIST_FILE = "iJulius/iJulius-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AB807FFF1935924A0083AF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iJulius.app/iJulius";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iJulius/iJulius-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iJuliusTests/iJuliusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AB8080001935924A0083AF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iJulius.app/iJulius";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iJulius/iJulius-Prefix.pch";
+				INFOPLIST_FILE = "iJuliusTests/iJuliusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB807FC11935924A0083AF61 /* Build configuration list for PBXProject "iJulius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB807FF91935924A0083AF61 /* Debug */,
+				AB807FFA1935924A0083AF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB807FFB1935924A0083AF61 /* Build configuration list for PBXNativeTarget "iJulius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB807FFC1935924A0083AF61 /* Debug */,
+				AB807FFD1935924A0083AF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB807FFE1935924A0083AF61 /* Build configuration list for PBXNativeTarget "iJuliusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB807FFF1935924A0083AF61 /* Debug */,
+				AB8080001935924A0083AF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB807FBE1935924A0083AF61 /* Project object */;
+}
