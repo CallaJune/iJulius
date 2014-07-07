@@ -83,10 +83,10 @@
 
 -(IBAction)sendMail:(id)sender{
     NSString *email = model.codedMessage;
-    email = [email stringByAppendingString:@"\nDecrypt this message with iJulius from the iOS app store!"];
+    email = [email stringByAppendingString:@"\nDecrypt this message with iJulius from the iOS app store! Download it at http://bit.ly/iJulius"];
     mailComposer = [[MFMailComposeViewController alloc]init];
     mailComposer.mailComposeDelegate = self;
-    [mailComposer setSubject:@"Message from iJulius"];
+    [mailComposer setSubject:@"Message from iJulius!"];
     [mailComposer setMessageBody:email isHTML:NO];
     [self presentViewController:mailComposer animated:YES completion:nil];
 }
@@ -98,7 +98,7 @@
         smsComposer.messageComposeDelegate = self;
         [smsComposer setBody:@"Message from iJulius"];
         NSString *sms = model.codedMessage;
-        sms = [sms stringByAppendingString:@"\nDecrypt with iJulius!"];
+        sms = [sms stringByAppendingString:@"\nDecrypt with iJulius! Download it at http://bit.ly/iJulius"];
         MFMessageComposeViewController *picker = [[MFMessageComposeViewController alloc] init];
         picker.messageComposeDelegate = self;
         picker.body = sms;
